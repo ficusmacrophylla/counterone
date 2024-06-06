@@ -1,0 +1,12 @@
+{
+	"appenders": {
+		"stdout": { "type": "stdout", "layout": { "type": "basic" } }
+	},
+	"categories": {
+		"default": { "appenders": ["stdout"], "level": "INFO" },
+		"thinkin": {
+			"appenders": ["stdout"],
+			"level": "INFO"
+		}
+	}
+}
