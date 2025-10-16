@@ -49,7 +49,7 @@ Application was built as showcase during an hackaton challenge, so it won't rece
 ## 🏗️ Architecture
 
 CounterOne follows a **layered architecture** with clear separation of concerns:
-
+```
 ┌─────────────────────────────────────────┐
 │ Vue 3 Frontend (UI) │
 │ (PrimeVue, Axios, RxJS) │
@@ -65,7 +65,7 @@ CounterOne follows a **layered architecture** with clear separation of concerns:
 │ │ └────────────┴────────────┘ │ │
 │ └─────────────────────────────────┘ │
 └─────────────────────────────────────────┘
-
+```
 
 The backend implements the **Factory Design Pattern** to abstract data retrieval from different sources, making it easy to add new data source types in the future.
 
@@ -173,7 +173,7 @@ npm run dev
 ---
 
 ## 📁 Project Structure
-
+```
 counterone/
 ├── counterone-backend/ # NestJS backend
 │ ├── src/
@@ -204,7 +204,7 @@ counterone/
 ├── files/ # Shared files volume
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ---
 
